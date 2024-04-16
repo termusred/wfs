@@ -1,0 +1,29 @@
+nav {
+    position: sticky;
+    top: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index:  99999;
+  }
+  .nav_logo-part {
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  body {
+    background-color: black;
+  }
+  .page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    background-color: white;
+  }
+  .nav_pages-part {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 5rem;
+    width: 42rem;
+  }

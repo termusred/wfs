@@ -1,0 +1,29 @@
+.MainPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 100%;
+  }
+  input[type="search"] {
+    width: 50rem;
+    height: 2rem;
+    margin-right: 1rem;
+    z-index: 1;
+  }
+  input[type="submit"] {
+    width: 7rem;
+    height: 2rem;
+  }
+  ::-webkit-scrollbar {
+    width: 0rem;
+  }
+  .LaptopsPlace {
+    display: flex;
+    overflow: scroll;
+    margin-top: 2rem;
+    width: 82rem;
+    height: 30rem;
+    border-radius: 1rem;
+    background-color: white;
+  }
